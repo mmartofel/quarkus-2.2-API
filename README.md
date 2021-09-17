@@ -1,4 +1,6 @@
-# backend Project
+# Quarkus 2.2.2 backend API project
+
+This Quarkus API works with Quarkus API Angular frontend code available at the separate repo at `https://github.com/mmartofel/quarkus-2.2-API-ng-frontend`
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
