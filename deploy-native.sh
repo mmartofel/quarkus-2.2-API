@@ -10,6 +10,7 @@
 
 oc delete all --selector app=backend-native
 
+oc apply -f ./deployment/angular-demo-app-configmap.yml
 oc new-app --name=backend-native `oc project --short=true`/backend-native:2.0
 oc set env deployment/backend-native --from configmap/angular-demo-app-configmap
 oc expose service/backend-native
